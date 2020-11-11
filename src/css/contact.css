@@ -1,0 +1,15 @@
+#contact .list-inline a{
+    color:#a2a2a2;
+    padding: 20px;
+    transition: .9s;
+}
+#contact .list-inline a i:hover{
+    transform: scale(1.3);
+    background-image:linear-gradient(45deg, #f3e909, #f05c21);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
