@@ -8,6 +8,7 @@ import Project from '../Project/Project';
 import Resume from '../Resume/Resume';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+// import BackTopButton from '../BackTopButton/BackTopButton';
 
 export default class Main extends Component{
     render(){
@@ -38,6 +39,7 @@ export default class Main extends Component{
                 <Contact/><hr style={{width:'75%'}}></hr>
                 {/* Contact END */}
                 <Footer/>
+
             </div>
         );
     }
