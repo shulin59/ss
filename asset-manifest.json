@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ss/static/css/main.39f1a038.chunk.css",
+    "main.js": "/ss/static/js/main.dcff7881.chunk.js",
+    "main.js.map": "/ss/static/js/main.dcff7881.chunk.js.map",
+    "runtime-main.js": "/ss/static/js/runtime-main.5cc66b33.js",
+    "runtime-main.js.map": "/ss/static/js/runtime-main.5cc66b33.js.map",
+    "static/js/2.1e716d0d.chunk.js": "/ss/static/js/2.1e716d0d.chunk.js",
+    "static/js/2.1e716d0d.chunk.js.map": "/ss/static/js/2.1e716d0d.chunk.js.map",
+    "index.html": "/ss/index.html",
+    "static/css/main.39f1a038.chunk.css.map": "/ss/static/css/main.39f1a038.chunk.css.map",
+    "static/js/2.1e716d0d.chunk.js.LICENSE.txt": "/ss/static/js/2.1e716d0d.chunk.js.LICENSE.txt",
+    "static/media/Postgresql.9f8f5cd9.png": "/ss/static/media/Postgresql.9f8f5cd9.png",
+    "static/media/about.47ce6bdd.jpg": "/ss/static/media/about.47ce6bdd.jpg",
+    "static/media/aws.61321556.png": "/ss/static/media/aws.61321556.png",
+    "static/media/css-3.463e319b.png": "/ss/static/media/css-3.463e319b.png",
+    "static/media/despoc.bc6bc584.jpg": "/ss/static/media/despoc.bc6bc584.jpg",
+    "static/media/java.f5dd86c3.png": "/ss/static/media/java.f5dd86c3.png",
+    "static/media/jslogo.266bd9fb.png": "/ss/static/media/jslogo.266bd9fb.png",
+    "static/media/resume.dd76e66b.svg": "/ss/static/media/resume.dd76e66b.svg",
+    "static/media/shulin.a333fd58.jpeg": "/ss/static/media/shulin.a333fd58.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cc66b33.js",
+    "static/js/2.1e716d0d.chunk.js",
+    "static/css/main.39f1a038.chunk.css",
+    "static/js/main.dcff7881.chunk.js"
+  ]
+}
