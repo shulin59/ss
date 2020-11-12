@@ -1,13 +1,13 @@
 import react, {Component} from 'react';
-import '../../css/experience.css';
+import '../css/experience.css';
 
 export default class Experience extends Component{
     render(){
         return(
-            <div id="experience" style={{backgroundColor:'#f1f1f1', paddingBottom:'17px'}}><br/>
+            <div id="experience" style={{backgroundColor:'#f1f1f1', paddingBottom:'17px'}} data-aos="fade-up"><br/>
                 <h2 style={{textAlign:'center'}}>EXPERIENCE</h2>
                 <hr style={{width:'8%', color:'#f05c21', backgroundColor:'#f05c21'}}></hr><br/>
-                <div class="timeline">
+                <div class="timeline"  data-aos="fade-up">
                     <div class="container-exp left">
                         <div class="content">
                             <h2 style={{color:'#0072AA'}}>Standard Chartered <span style={{color:'#21AA47'}}>Global Business Services</span></h2>

@@ -1,19 +1,21 @@
-import react, {Component} from 'react';
-import about from '../../images/about.jpg';
-import '../../css/Hero.css';
+import react, { Component} from 'react';
+import about from '../images/about.jpg';
+import '../css/Hero.css';
+
 
 export default class AboutMe extends Component{
+    
     render(){
         return(
             // About BEGIN
-            <div id="about" style={{backgroundColor:'#f1f1f1', paddingBottom:'17px'}}><br/>
+            <div id="about" data-aos="fade-up" style={{backgroundColor:'#f1f1f1', paddingBottom:'17px'}}><br/>
                 <h2 style={{textAlign:'center'}}>ABOUT ME</h2>
                 <hr style={{width:'8%', color:'#f05c21', backgroundColor:'#f05c21'}}></hr><br/>
                 <div className="container">
-                    <div className="card mb-3" >
+                    <div className="card mb-3" data-aos="fade-up" >
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={about} className="card-img" alt="profile picture" style={{height:'100%'}}/>
+                                <img src={about} className="card-img" alt="profile" style={{height:'100%'}}/>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -29,7 +31,7 @@ export default class AboutMe extends Component{
                             </div>
                         </div>
                     </div>
-                    <div className="card mb-3">
+                    <div className="card mb-3" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-9">
                             <div className="card-body table-responsive">

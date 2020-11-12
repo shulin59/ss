@@ -1,13 +1,13 @@
 import react, {Component} from 'react';
-import Navbar from '../NavBar/navbar';
-import Hero from '../Hero/Hero';
-import AboutMe from '../AboutMe/AboutMe';
-import Skill from '../Skill/Skill';
-import Experience from '../Experience/Experience';
-import Project from '../Project/Project';
-import Resume from '../Resume/Resume';
-import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
+import Navbar from './navbar';
+import Hero from './Hero';
+import AboutMe from './AboutMe';
+import Skill from './Skill';
+import Experience from './Experience';
+import Project from './Project';
+import Resume from './Resume';
+import Contact from './Contact';
+import Footer from './Footer';
 // import BackTopButton from '../BackTopButton/BackTopButton';
 
 export default class Main extends Component{

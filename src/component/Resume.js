@@ -1,11 +1,11 @@
 import react, {Component} from 'react';
-import '../../css/resume.css';
-import resume from '../../images/resume.svg';
+import '../css/resume.css';
+import resume from '../images/resume.svg';
 
 export default class Resume extends Component{
     render(){
         return(
-            <div id="resume" style={{backgroundColor:'#f1f1f1', paddingBottom:'17px'}}><br/>
+            <div id="resume" style={{backgroundColor:'#f1f1f1', paddingBottom:'17px'}} data-aos="fade-up"><br/>
             <h2 style={{textAlign:'center'}}>RESUME</h2>
             <hr style={{width:'8%', color:'#f05c21', backgroundColor:'#f05c21'}}></hr><br/>
             <div className="container">

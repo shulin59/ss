@@ -1,11 +1,10 @@
 import react, {Component} from 'react';
-import despoc from '../../images/despoc.jpg';
-import facelock from '../../images/facelock.png';
+import despoc from '../images/despoc.jpg';
 
 export default class Project extends Component{
     render(){
         return(
-            <div id="projects" style={{paddingBottom:'17px'}}><br/>
+            <div id="projects" style={{paddingBottom:'17px'}}  data-aos="fade-up"><br/>
                 <h2 style={{textAlign:'center'}}>PROJECTS</h2>
                 <hr style={{width:'8%', color:'#f05c21', backgroundColor:'#f05c21'}}></hr><br/>
                 <div className="container">
