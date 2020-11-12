@@ -23,8 +23,8 @@ export default class AboutMe extends Component{
                                         Hi! I'm Shulin Saraswat, a developer and analyst from Bangalore, India. 
                                         Since stepping into the world of technology, I have been experimenting with various programming tools. 
                                         I pursued my <i>Bachelor's of Technology in Electronics and Communication with specialisation in Internet of Things and Sensors</i> at Vellore Institute of Technology, Vellore
-                                        and at the same time dabbling in the world of programming. Have had the pleasure to work with some awesome peers at <b>IoThinC-VIT as a Co-founder and Mangement Head</b>.
-                                        <br/>I am currently working with <b style={{color:'#21AA47'}}>Standard Chartered Global Business Service</b> and titled as Developer - Technology &amp; Innovation. 
+                                        and at the same time dabbling in the world of programming. Have had the pleasure to work with some awesome peers at <b style={{color:'#44a4ee'}}>IoThinC-VIT</b><i> as a Co-founder and Mangement Head</i>.
+                                        <br/>I am currently working with <b style={{color:'#21AA47'}}>Standard Chartered Global Business Service</b> and <i>titled as Developer - Technology &amp; Innovation.</i> 
                                         I am placed under Foundation Services and Tech Strategy (FSTS) department and primarly working toward migration of applications to cloud. Moreover I am a <i>photography enthusiast</i>, who capture the good times, develop from the negative and if things don't make out <b>TAKE ANOTHER SHOT !</b>
                                     </p>
                                 </div>
