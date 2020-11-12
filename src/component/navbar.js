@@ -35,7 +35,7 @@ export default class Navbar extends Component{
                         </li>
                     </ul>
                 </div>
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="#home">
                     <img src={logo} width="50" height="30" className="d-inline-block align-top" alt="" loading="lazy" />
                 </a>
             </nav>

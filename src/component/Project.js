@@ -12,7 +12,7 @@ export default class Project extends Component{
                     <div className="card mb-3" style={{borderColor:'#f3e909'}} >
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={despoc} className="card-img" alt="profile picture" style={{height:'75%', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/>
+                                <img src={despoc} className="card-img" alt="DeSPOC" style={{height:'75%', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">

@@ -9,3 +9,13 @@
     background-color: #f59518;
     border-color:#f59518;
 }
+
+.glLink{
+    text-decoration:'none';
+    color: #f05c21
+}
+
+.glLink:hover{
+    text-decoration:'none';
+    color: #f3e909;
+}

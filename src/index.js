@@ -6,7 +6,7 @@ import App from './App';
 
 const routes=<BrowserRouter>
   <Switch>
-    <Route exact path='/' component={App}/>
+    <Route exact path='/ss/' component={App}/>
   </Switch>
 </BrowserRouter>
 

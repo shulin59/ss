@@ -12,14 +12,14 @@ export default class Resume extends Component{
                 <div className="card mb-3" >
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={resume} className="card-img" alt="profile picture" style={{height:'75%', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/>
+                            <img src={resume} className="card-img" alt="resume" style={{height:'75%', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
                                 <p className="card-text" style={{lineHeight:'2.0', textAlign:'left', fontSize:"17px"}}>
                                     Here you can download my resume. A word of caution though: I have pretty steep learning curve -
                                     as I'm always learning and experimenting with coll stuff, so th resume may not cover all my latest skill sets.
-                                    If you are interested, you can check out my <a href="" style={{textDecoration:'none'}}>github profile</a> and linkedIn profile apart from this to get better understanding of the work that I do.
+                                    If you are interested, you can check out my <a className="glLink" href="https://github.com/shulin59">github</a> and <a className="glLink" href="https://www.linkedin.com/in/shulin-saraswat-7aba05121/">linkedIn</a> profile apart from this to get better understanding of the work that I do.
                                 </p><br/><br/>
                                 <a className="btn downloadbtn rounded-pill shadow" href="" style={{textDecoration:'none', width:'50%', height:'75px'}}>
                                     <i className="fa fa-download" style={{marginTop:'20px', fontSize:'20px'}}>&ensp;DOWNLOAD</i>
