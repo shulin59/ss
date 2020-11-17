@@ -10,7 +10,7 @@
 }
 
 .disappear{
-    animation: vanish 1.7s forwards;
+    animation: vanish 1s forwards;
 }
 
 @keyframes vanish{
