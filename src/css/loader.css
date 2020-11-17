@@ -1,4 +1,4 @@
-.load{
+.loader{
     position: fixed;
     top:0;
     left:0;
@@ -10,7 +10,7 @@
 }
 
 .disappear{
-    animation: vanish 1s forwards;
+    animation: vanish 1.7s forwards;
 }
 
 @keyframes vanish{

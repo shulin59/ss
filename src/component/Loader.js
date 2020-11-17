@@ -4,7 +4,7 @@ import '../css/loader.css';
 
 export default class Loader extends Component{
     componentDidMount(){
-        var loader = document.querySelector(".load");
+        var loader = document.querySelector(".loader");
         window.addEventListener("load", function vanish(){
             loader.classList.add("disappear")
         });
@@ -12,7 +12,7 @@ export default class Loader extends Component{
     
     render(){
         return(
-            <div className="load">
+            <div className="loader">
                 <img src={loadergif} alt="laoding page"/>
             </div>
         );

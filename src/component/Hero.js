@@ -15,7 +15,7 @@ export default class Hero extends Component {
                     <h2 className="typing"> 
                     <Typewriter 
                         options={{
-                            strings:['a Developer', 'a Photographer', 'an IoT enthusiast'],
+                            strings:['a Developer', 'a Photographer', 'an IoT enthusiast', 'a Numismatist'],
                             autoStart: true,
                             loop: true,
                             skipAddStyles: true,
