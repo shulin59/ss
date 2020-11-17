@@ -9,13 +9,13 @@ export default class Hero extends Component {
             // Landing BEGIN
             <div id="home">
             <div className="container">
-                <img src={hero} alt="hero banner" style={{width:'100%'}} data-aos="fade-right" data-aos-delay="300"/>
+                <img className="heroBanner" src={hero} alt="hero banner" style={{width:'100%'}} data-aos="fade-right" data-aos-delay="300"/>
                 <div className="centered">
                     <h1 className="heading-hero" data-aos="fade-left" data-aos-delay="400"><strong>Shulin Saraswat</strong></h1>
-                    <h2 style={{color: 'white'}}> 
+                    <h2 className="typing"> 
                     <Typewriter 
                         options={{
-                            strings:['a developer', 'a Photographer'],
+                            strings:['a Developer', 'a Photographer', 'an IoT enthusiast'],
                             autoStart: true,
                             loop: true,
                             skipAddStyles: true,

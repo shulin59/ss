@@ -1,0 +1,23 @@
+.despocImage{
+    height:75%;
+    padding-top:20px;
+    margin-top:30px;
+    margin-left:25px;
+    width:100%;
+}
+@media (max-width: 576.98px){
+    .despocImage{
+        width:90%; 
+        margin-left:10px;   
+        margin-top:20px;
+    }
+}
+
+@media (min-width: 576.99px) and (max-width:768.98px){
+    .despocImage{
+        width:90%;
+        height:50% ;
+        margin-left:20px;   
+        margin-top:150px;
+    }
+}

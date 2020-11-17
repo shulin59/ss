@@ -3,6 +3,7 @@ import despoc from '../images/despoc.jpg';
 import vems from '../files/vems.pdf';
 import face from '../files/facialRecognitionSmartLock.pdf';
 import artmos from '../files/artmos.pdf';
+import '../css/project.css';
 
 export default class Project extends Component{
     render(){
@@ -15,7 +16,7 @@ export default class Project extends Component{
                     <div className="card mb-3" style={{borderColor:'#f3e909'}} >
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={despoc} className="card-img" alt="DeSPOC" style={{height:'75%', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/>
+                                <img src={despoc} className="card-img despocImage" alt="DeSPOC"/>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -36,7 +37,7 @@ export default class Project extends Component{
 
                     {/* Other Project BEGIN */}
                     <div class="card-deck">
-                        <div class="card" style={{borderColor:'#f3e909'}}>
+                        <div class="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
                             {/* <img src="..." class="card-img-top" alt="..."/> */}
                             <div class="card-body">
                                 <h5 class="card-title">Vehicle Monitoring System (VEMS)</h5>
@@ -47,7 +48,7 @@ export default class Project extends Component{
                                 </a>
                             </div>
                         </div>
-                        <div class="card" style={{borderColor:'#f3e909'}}>
+                        <div class="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
                             {/* <img src={facelock} className="card-img" alt="profile picture" style={{height:'100px', weight:'9px', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/> */}
                             <div class="card-body">
                                 <h5 class="card-title">Facial Recognition Smart Lock</h5><br/>
@@ -58,7 +59,7 @@ export default class Project extends Component{
                                 </a>
                             </div>
                         </div>
-                        <div class="card" style={{borderColor:'#f3e909'}}>
+                        <div class="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
                             {/* <img src="..." class="card-img-top" alt="..."/> */}
                             <div class="card-body">
                                 <h5 class="card-title">Artificial Atmosphere<br/>(ARTMOS)</h5>

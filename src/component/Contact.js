@@ -18,6 +18,9 @@ export default class Contact extends Component{
                         <li className="list-inline-item">
                             <a href="mailto: shulin59@outlook.com" target="_blank"><i className="fa fa-2x fa-envelope"></i></a>
                         </li>
+                        <li className="list-inline-item">
+                            <a href="https://www.quora.com/profile/Shulin-Saraswat-2" target="_blank"><i className="fa fa-2x fa-quora"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>

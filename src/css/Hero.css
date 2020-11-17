@@ -8,18 +8,15 @@
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-}
+}    
 
-.h1{
+.heading-hero{
     font-family: "Archivo Black", sans-serif;
     font-weight: normal;
-    font-size: 6em;
+    font-size: 3em;
     text-align: center;
     margin-bottom: 0;
     margin-bottom: -0.25em;
-}
-
-.heading-hero{
     background-color: red;
     background-image:linear-gradient(45deg, #f3e909, #f05c21);
     background-size: 100%;
@@ -28,6 +25,10 @@
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+}
+
+.typing{
+    color:white;
 }
 
 .lead-down{
@@ -56,3 +57,15 @@
     padding-top:5px
 }
 @keyframes pulsate{0%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}
+
+@media (max-width: 768.98px){
+    .lead-down{
+        display:none;
+    }
+    .heading-hero{
+        font-size: 1.5em;
+    }
+    .typing{
+        font-size: 16px;
+    }
+}

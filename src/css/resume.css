@@ -19,3 +19,35 @@
     text-decoration:'none';
     color: #f3e909;
 }
+
+.resumeImage{
+    height:75%;
+    padding-top:20px;
+    margin-top:30px;
+    margin-left:25px;
+}
+
+.resumeText{
+    line-height:2.0;
+    text-align:left;
+    font-size:17px;
+    padding-bottom:40px;
+}
+
+.downloadButton{
+    margin-top:20px;
+    font-size:20px;
+}
+
+@media(max-width:576.98px){
+    .resumeText{
+        padding-bottom: 0;
+    }
+    .resumeImage{
+        margin-left: 10px;
+    }
+    .downloadButton{
+        margin-top: 23px;
+        font-size: 16px;
+    }
+}

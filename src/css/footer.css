@@ -1,0 +1,9 @@
+
+@media (max-width: 768.98px){
+    .footerCR{
+        display:none;
+    }
+    .footerMade{
+        text-align: center;
+    }
+}
