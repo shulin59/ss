@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .navbar-light .navbar-nav .nav-link{
     color: #818181;
 }
@@ -20,6 +23,5 @@
     font-size: large;
 }
 .navbar-nav>li:hover, .navbar-light .navbar-nav .nav-link:hover {
-    background-color: #f3f3f3;
     cursor: pointer;
 }

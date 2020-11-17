@@ -4,6 +4,7 @@ import Main from '../src/component/Main';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Scroll from '../src/component/BackTopButton';
+import Loader from '../src/component/Loader';
 
 class App extends Component{
   componentDidMount(){
@@ -15,6 +16,7 @@ class App extends Component{
   render(){
     return(
       <div>
+        <Loader/>
         <Main/>   
         <Scroll showBelow={250} />
       </div>

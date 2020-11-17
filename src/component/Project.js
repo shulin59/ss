@@ -20,7 +20,7 @@ export default class Project extends Component{
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 class="card-title" style={{lineHeight:'2.0', textAlign:'left'}}>Publication</h5>
+                                    <h5 className="card-title" style={{lineHeight:'2.0', textAlign:'left'}}>Publication</h5>
                                     <p className="card-text" style={{lineHeight:'2.0', textAlign:'left', fontSize:"17px"}}>
                                     <i><b>Experimental Validation of an IoT based Device Selective Power Cut Mechanism Using Power Line Carrier Communication for Smart Management of Electricity</b></i><br/>
                                     This work was dealt with Implementing a device selective protocol which can selectively cut power of particular devices depending upon their power rating, 
@@ -36,34 +36,34 @@ export default class Project extends Component{
                     {/* Published Project END */}
 
                     {/* Other Project BEGIN */}
-                    <div class="card-deck">
-                        <div class="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
-                            {/* <img src="..." class="card-img-top" alt="..."/> */}
-                            <div class="card-body">
-                                <h5 class="card-title">Vehicle Monitoring System (VEMS)</h5>
-                                <p class="card-text" style={{lineHeight:'2.0', textAlign:'justify', fontSize:"17px"}}>VeMS is to track and monitor the vehicle parameters using IoT. 
+                    <div className="card-deck">
+                        <div className="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
+                            {/* <img src="..." className="card-img-top" alt="..."/> */}
+                            <div className="card-body">
+                                <h5 className="card-title">Vehicle Monitoring System (VEMS)</h5>
+                                <p className="card-text" style={{lineHeight:'2.0', textAlign:'justify', fontSize:"17px"}}>VeMS is to track and monitor the vehicle parameters using IoT. 
                                 The parameter being object detection, weather forecast, engine performance and car location.</p>
                                 <a className="btn viewbtn rounded-pill shadow" href={vems} target="_blank" style={{textDecoration:'none', width:'50%', marginTop:'68px'}}>
                                     <i className="fa fa-eye">&ensp;View</i>
                                 </a>
                             </div>
                         </div>
-                        <div class="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
+                        <div className="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
                             {/* <img src={facelock} className="card-img" alt="profile picture" style={{height:'100px', weight:'9px', paddingTop:'20px', marginTop:'30px',marginLeft:'25px'}}/> */}
-                            <div class="card-body">
-                                <h5 class="card-title">Facial Recognition Smart Lock</h5><br/>
-                                <p class="card-text" style={{lineHeight:'2.0', textAlign:'justify', fontSize:"17px"}}>The main purpose of the project is to improve security systems in homes, offices etc. 
+                            <div className="card-body">
+                                <h5 className="card-title">Facial Recognition Smart Lock</h5><br/>
+                                <p className="card-text" style={{lineHeight:'2.0', textAlign:'justify', fontSize:"17px"}}>The main purpose of the project is to improve security systems in homes, offices etc. 
                                 The idea is to unlock a door by recognizing the face of an authorized person And then send the image to the cloud for analysis and to notify the user.</p>
                                 <a className="btn viewbtn rounded-pill shadow" href={face} target="_blank" style={{textDecoration:'none', width:'50%'}}>
                                     <i className="fa fa-eye">&ensp;View</i>
                                 </a>
                             </div>
                         </div>
-                        <div class="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
-                            {/* <img src="..." class="card-img-top" alt="..."/> */}
-                            <div class="card-body">
-                                <h5 class="card-title">Artificial Atmosphere<br/>(ARTMOS)</h5>
-                                <p class="card-text" style={{lineHeight:'2.0', textAlign:'justify', fontSize:"17px"}}>To grow crops with suitable surrounding in any environment by creating artificial conditions using micro-controller.</p>
+                        <div className="card" style={{borderColor:'#f3e909'}} data-aos="fade-up">
+                            {/* <img src="..." className="card-img-top" alt="..."/> */}
+                            <div className="card-body">
+                                <h5 className="card-title">Artificial Atmosphere<br/>(ARTMOS)</h5>
+                                <p className="card-text" style={{lineHeight:'2.0', textAlign:'justify', fontSize:"17px"}}>To grow crops with suitable surrounding in any environment by creating artificial conditions using micro-controller.</p>
                                 <a className="btn viewbtn rounded-pill shadow" href={artmos} target="_blank" style={{textDecoration:'none', width:'50%', marginTop:'102px'}}>
                                     <i className="fa fa-eye">&ensp;View</i>
                                 </a>
