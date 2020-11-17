@@ -39,7 +39,19 @@
     font-size:20px;
 }
 
-@media(max-width:576.98px){
+@media (max-width: 320.98px){
+    .resumeText{
+        padding-bottom: 0;
+    }
+    .resumeImage{
+        margin-left: 10px;
+    }
+    .downloadButton{
+        margin-top: 23px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 320.99px) and (max-width: 576.98px){
     .resumeText{
         padding-bottom: 0;
     }

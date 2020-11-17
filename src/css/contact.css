@@ -13,3 +13,9 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
+
+@media (max-width: 320.98px){
+    #contact .list-inline a{
+        padding: 10px;
+    }
+}
