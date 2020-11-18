@@ -3,6 +3,7 @@ import logo from '../images/logo.png';
 import '../css/navbar.css';
 
 export default class Navbar extends Component{
+
     render(){
         return(
             // Navbar BEGIN
@@ -11,7 +12,7 @@ export default class Navbar extends Component{
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0" id="myNav">
                         <li className="nav-item">
                             <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
                         </li>

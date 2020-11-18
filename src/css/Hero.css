@@ -8,7 +8,7 @@
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-}    
+}
 
 .heading-hero{
     font-family: "Archivo Black", sans-serif;
@@ -58,7 +58,19 @@
 }
 @keyframes pulsate{0%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}
 
-@media (max-width: 768.98px){
+@media(max-width: 320.98px){
+    .lead-down{
+        display:none;
+    }
+    .heading-hero{
+        font-size: 1.2em;
+    }
+    .typing{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320.90px) and (max-width: 768.98px){
     .lead-down{
         display:none;
     }
