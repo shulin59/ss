@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import '../css/experience.css';
 
 export default class Experience extends Component{
@@ -25,7 +25,7 @@ export default class Experience extends Component{
                     <div className="container-exp left">
                         <div className="content">
                         <h2 style={{color:'#44a4ee'}}>IoThinC - VIT</h2>
-                        <h6>Co-Founder &amp; Management Head (Jan 2019 - September 2019)</h6>
+                        <h6>Co-Founder &amp; Management Head (December 2017 - December 2019)</h6>
                         <p style={{lineHeight:'2.0'}}>A dedicated club for Internet of Things enthusiasts. Build IoT enabled project and held workshops to better understand the application in the field of Internet of Things</p>
                     </div>
                 </div>

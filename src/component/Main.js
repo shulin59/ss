@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import Navbar from './navbar';
 import Hero from './Hero';
 import AboutMe from './AboutMe';

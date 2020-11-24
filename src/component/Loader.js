@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import loadergif from '../images/loadergif.gif';
 import '../css/loader.css';
 

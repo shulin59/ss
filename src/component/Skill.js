@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import htmllogo from '../images/html.png'; 
 import csslogo from '../images/css-3.png'; 
 import javalogo from '../images/java.png';

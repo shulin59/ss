@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import '../css/resume.css';
 import resume from '../images/resume.svg';
 import myResume from '../files/resume.pdf';

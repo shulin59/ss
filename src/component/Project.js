@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import despoc from '../images/despoc.jpg';
 import vems from '../files/vems.pdf';
 import face from '../files/facialRecognitionSmartLock.pdf';

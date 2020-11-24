@@ -1,4 +1,4 @@
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import Typewriter from 'typewriter-effect';
 import hero from '../images/shulin.jpeg';
 import '../css/Hero.css';
