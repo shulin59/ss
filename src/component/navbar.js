@@ -4,6 +4,18 @@ import '../css/navbar.css';
 
 export default class Navbar extends Component{
 
+    componentDidMount(){
+        var header= document.getElementById("navbarTogglerDemo01")
+        var btns= header.getElementsByClassName("nav-link");
+        for(var i=0; i<btns.length; i++){
+            btns[i].addEventListener("click", function(){
+                var current=document.getElementsByClassName("selected");
+                current[0].className=current[0].className.replace("selected","");
+                this.className+=" selected";
+            });
+        }
+    }
+
     render(){
         return(
             // Navbar BEGIN
@@ -14,7 +26,7 @@ export default class Navbar extends Component{
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0" id="myNav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link selected" href="#home">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#about">About Me</a>
