@@ -74,6 +74,10 @@
     border-radius: 6px;
 }
 
+.content:hover{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.40);
+}
+
 .scbox{
   border-left-style: solid;
   border-left-color: #21AA47;

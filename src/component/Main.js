@@ -8,12 +8,13 @@ import Project from './Project';
 import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
-// import BackTopButton from '../BackTopButton/BackTopButton';
+import Scroll from './BackTopButton';
 
 export default class Main extends Component{
     render(){
         return(
             <div>
+                <Scroll showBelow={250} />
                 {/* Navbar BEGIN */}
                 <Navbar/>
                 {/* Navbar END */}

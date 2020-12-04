@@ -22,25 +22,81 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    
     <title>Shulin Saraswat</title>
+    <style>
+      .loader {
+        border: 6px solid #f3f3f3;
+        border-top: 8px solid #f59518;
+        border-bottom: 8px solid #f05c21;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        margin-left:47%;
+        margin-top: 20%;
+        animation: spin 2s linear infinite;
+        position:relative;
+      }
+      
+      /* .load {
+        border: 6px solid #f3f3f3;
+        border-top: 8px solid #f05c21;
+        border-bottom: 8px solid #f59518;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        margin-left:49.75%;
+        margin-top: -5.5%;
+        position:relative;
+        animation: spiner 2s linear infinite;
+      } */
+
+      @keyframes spin {
+        0%  { transform: rotate(0deg); }
+        50%  { transform: scale(1.2); }
+        75% { transform: rotate(-180deg); }
+      }
+      @keyframes spiner {
+        0%  { transform: rotate(0deg); }
+        50%  { transform: scale(-0.5); }
+        75% { transform: rotate(180deg); }
+      }
+
+      @media (min-width: 320.90px) and (max-width: 768.98px){
+        .loader{
+          margin-left:36%;
+          margin-top:60%;
+        }
+        /* .load{
+          margin-left:45%;
+          margin-top:-17%;
+        } */
+      }
+      @media(max-width: 320.98px){
+        .loader{
+          width: 90px;
+          height: 90px;
+          margin-left:35%;
+          margin-top:60%;
+        }
+        /* .load{
+          width: 30px;
+          height: 30px;
+          margin-left:44.7%;
+          margin-top:-18%;
+        } */
+      }
+      </style>
   </head>
   <body class data-aos-easing="ease" data-aos-duration="1500" data-aos-delay="0">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="loader-container">
+      <div class="loader"></div>
+      <!-- <div class="load"></div> -->
+    </div>
     <!--
       My profile Page
       
