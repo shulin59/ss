@@ -21,6 +21,9 @@ export default class Contact extends Component{
                         <li className="list-inline-item">
                             <a href="https://www.quora.com/profile/Shulin-Saraswat-2" target="_blank"><i className="fa fa-2x fa-quora"></i></a>
                         </li>
+                        <li>
+                            <a href="https://shulinsaraswat.github.io/canonshuttershots/" target="_blank"><i class="fa-solid fa-display"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>

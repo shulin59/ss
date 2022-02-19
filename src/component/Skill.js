@@ -16,7 +16,7 @@ export default class Skill extends Component{
                 <hr style={{width:'8%', color:'#f05c21', backgroundColor:'#f05c21'}}></hr><br/>
                 <div className="container">
                     <p style={{lineHeight:'2.0'}}>An almost indispensable skill for any successful person is the ability to pose the right question before trying to find answers to it.
-                        Aside from the <i>leadership skills, time management skills, problem solveing skills, inter personal skills;</i> some of the notable skillset which I have cultivated up throughout my time in school and college are mentioned henceforth.
+                        Aside from the <i>leadership skills, time management skills, problem solving skills, inter personal skills;</i> some of the notable skillset which I have cultivated up throughout my time in school and college are mentioned henceforth.
                     </p><br/>
                     <div data-aos="fade-up">
                     <div className="row" style={{paddingBottom:'40px'}} >

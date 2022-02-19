@@ -21,7 +21,7 @@ export default class AboutMe extends Component{
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <p className="card-text" style={{lineHeight:'2.0', textAlign:'left'}}>
-                                        Hi! I'm Shulin Saraswat, a developer and analyst from Bangalore, India. 
+                                        Hi! I'm Shulin Saraswat, a developer from Bangalore, India. 
                                         Since stepping into the world of technology, I have been experimenting with various programming tools. 
                                         I pursued my <i>Bachelor's of Technology in Electronics and Communication with specialisation in Internet of Things and Sensors</i> at Vellore Institute of Technology, Vellore
                                         and at the same time dabbling in the world of programming. Have had the pleasure to work with some awesome peers at <b style={{color:'#44a4ee'}}>IoThinC-VIT</b><i> as a Co-founder and Management Head</i>.
