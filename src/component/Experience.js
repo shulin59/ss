@@ -12,7 +12,7 @@ export default class Experience extends Component{
                         <div className="content scbox">
                             <h2 style={{color:'#0072AA'}}>Standard Chartered <span style={{color:'#21AA47'}}>Global Business Services</span></h2>
                             <h6>Developer- Technology &amp; Innovation (September 2020 - present)</h6>
-                            <p style={{lineHeight:'2.0'}}>Working on the migration of current on prime application to cloud. Also working on the breaking on the current application to microservices.</p>
+                            <p style={{lineHeight:'2.0'}}>Working on the migration of current on-prem application to cloud. Also working on the breaking on the current application to microservices.</p>
                         </div>
                     </div>
                     <div className="container-exp right">
