@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ss/static/css/main.85018bc6.chunk.css",
+    "main.css": "/ss/static/css/main.fa354c26.chunk.css",
     "main.js": "/ss/static/js/main.5e2320c0.chunk.js",
     "main.js.map": "/ss/static/js/main.5e2320c0.chunk.js.map",
     "runtime-main.js": "/ss/static/js/runtime-main.5cc66b33.js",
@@ -10,7 +10,7 @@
     "static/js/2.a4fee032.chunk.js.map": "/ss/static/js/2.a4fee032.chunk.js.map",
     "index.html": "/ss/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/ss/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.85018bc6.chunk.css.map": "/ss/static/css/main.85018bc6.chunk.css.map",
+    "static/css/main.fa354c26.chunk.css.map": "/ss/static/css/main.fa354c26.chunk.css.map",
     "static/js/2.a4fee032.chunk.js.LICENSE.txt": "/ss/static/js/2.a4fee032.chunk.js.LICENSE.txt",
     "static/media/Postgresql.9f8f5cd9.png": "/ss/static/media/Postgresql.9f8f5cd9.png",
     "static/media/about.47ce6bdd.jpg": "/ss/static/media/about.47ce6bdd.jpg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.5cc66b33.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.a4fee032.chunk.js",
-    "static/css/main.85018bc6.chunk.css",
+    "static/css/main.fa354c26.chunk.css",
     "static/js/main.5e2320c0.chunk.js"
   ]
 }
