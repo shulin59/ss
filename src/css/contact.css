@@ -1,3 +1,6 @@
+.list-inline{
+    text-align:center;
+}
 #contact .list-inline a{
     color:#a2a2a2;
     padding: 20px;
@@ -14,7 +17,13 @@
     -moz-text-fill-color: transparent;
 }
 
-@media (max-width: 320.98px){
+@media (min-width: 320.90px) and (max-width: 768.98px){
+    #contact .list-inline a{
+        padding: 14px;
+    }
+}
+
+@media(max-width:320.98px){
     #contact .list-inline a{
         padding: 10px;
     }
