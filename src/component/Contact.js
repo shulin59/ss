@@ -10,10 +10,10 @@ export default class Contact extends Component{
                 <div className="container icons">
                     <ul className="list-inline">
                         <li className="list-inline-item">
-                            <a href="https://www.linkedin.com/in/shulin-saraswat-7aba05121/" target="_blank"><i className="fa fa-2x fa-linkedin-square"></i></a>
+                            <a href="https://www.linkedin.com/in/shulinsaraswat/" target="_blank"><i className="fa fa-2x fa-linkedin-square"></i></a>
                         </li>
                         <li className="list-inline-item">
-                            <a href="https://github.com/shulin59" target="_blank"><i className="fa fa-2x fa-github"></i></a>
+                            <a href="https://github.com/shulinsaraswat" target="_blank"><i className="fa fa-2x fa-github"></i></a>
                         </li>            
                         <li className="list-inline-item">
                             <a href="mailto: shulin59@outlook.com" target="_blank"><i className="fa fa-2x fa-envelope"></i></a>
