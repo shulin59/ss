@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ss/static/css/main.2322b68a.chunk.css",
-    "main.js": "/ss/static/js/main.ff2b62c1.chunk.js",
-    "main.js.map": "/ss/static/js/main.ff2b62c1.chunk.js.map",
+    "main.js": "/ss/static/js/main.541a5534.chunk.js",
+    "main.js.map": "/ss/static/js/main.541a5534.chunk.js.map",
     "runtime-main.js": "/ss/static/js/runtime-main.5cc66b33.js",
     "runtime-main.js.map": "/ss/static/js/runtime-main.5cc66b33.js.map",
     "static/css/2.ec02d681.chunk.css": "/ss/static/css/2.ec02d681.chunk.css",
@@ -21,8 +21,8 @@
     "static/media/facialRecognitionSmartLock.4487c8f3.pdf": "/ss/static/media/facialRecognitionSmartLock.4487c8f3.pdf",
     "static/media/java.f5dd86c3.png": "/ss/static/media/java.f5dd86c3.png",
     "static/media/jslogo.266bd9fb.png": "/ss/static/media/jslogo.266bd9fb.png",
+    "static/media/resume.0c21054a.pdf": "/ss/static/media/resume.0c21054a.pdf",
     "static/media/resume.dd76e66b.svg": "/ss/static/media/resume.dd76e66b.svg",
-    "static/media/resume.f3d95ab6.pdf": "/ss/static/media/resume.f3d95ab6.pdf",
     "static/media/shulin.26aa3dc6.jpeg": "/ss/static/media/shulin.26aa3dc6.jpeg",
     "static/media/vems.77da2266.pdf": "/ss/static/media/vems.77da2266.pdf"
   },
@@ -31,6 +31,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.a4fee032.chunk.js",
     "static/css/main.2322b68a.chunk.css",
-    "static/js/main.ff2b62c1.chunk.js"
+    "static/js/main.541a5534.chunk.js"
   ]
 }
